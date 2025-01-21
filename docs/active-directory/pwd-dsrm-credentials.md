@@ -1,6 +1,6 @@
 # Password - DSRM Credentials
 
-> Directory Services Restore Mode (DSRM) is a safe mode boot option for Windows Server domain controllers. DSRM allows an administrator to repair or recover to repair or restore an Active Directory database.
+> Directory Services Restore Mode (DSRM) is a safe mode boot option for Windows Server domain controllers. DSRM allows an administrator to repair or recover an Active Directory database.
 
 This is the local administrator account inside each DC. Having admin privileges in this machine, you can use Mimikatz to dump the local Administrator hash. Then, modifying a registry to activate this password so you can remotely access to this local Administrator user.
 
